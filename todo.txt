@@ -3,18 +3,44 @@ You've currently finished Hero.jsx
 
 
 
-
-
-
 Extra Important Notes:
 "Word Wrap" in VS Code:
 
     Open the command palette by pressing Ctrl + Shift + P (or Cmd + Shift + P on macOS).
     Type "Toggle Word Wrap" and press Enter.
 
-git branch
-
 commands used: 
 npm install @remixicon/react  - installs remixicon
 npx tailwindcss init -p     
 npx run dev
+
+
+Steps in pushing in GitHub: 
+1. Clone the repository
+    git clone https://github.com/your-username/your-repo.git
+    Replace your-username and your-repo with the correct GitHub username and repository name.
+
+1. Make sure you're in the main folder -- React-Tailwind-Project
+    cd React-Tailwind-Project 
+    or simply right click the folder and open it to vsCode
+
+2. Create your branch name
+    git checkout -b Your-branch-name
+    -b stands for branch 
+
+3. Check your current branch
+    git branch 
+
+4. Add your branch to the repository
+    git add .
+
+5. Commit your message to the repository    
+    git commit -m "Your commit message" 
+    '-m' stands for message.
+
+6. Push the branch
+    If it's your first commit:
+    git push --set-upstream origin your-branch-name
+    Otherwise:
+    git push origin your-branch-name
+
