@@ -1,0 +1,20 @@
+Finish Service.jsx ect from the video.
+You've currently finished Hero.jsx
+
+
+
+
+
+
+Extra Important Notes:
+"Word Wrap" in VS Code:
+
+    Open the command palette by pressing Ctrl + Shift + P (or Cmd + Shift + P on macOS).
+    Type "Toggle Word Wrap" and press Enter.
+
+git branch
+
+commands used: 
+npm install @remixicon/react  - installs remixicon
+npx tailwindcss init -p     
+npx run dev
