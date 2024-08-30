@@ -3,6 +3,10 @@ import Hero from "./components/Hero"
 import Services from "./components/Services"
 import Portfolio from "./components/Portfolio"
 import About from "./components/About"
+import Reviews from "./components/Reviews"
+import ContactUs from "./components/Contactus"
+import Footer from "./components/Footer"
+
 
 const App = () => {
   return (
@@ -12,6 +16,9 @@ const App = () => {
     <Services />
     <Portfolio />
     <About/>
+    <Reviews/>
+    <ContactUs/>
+    <Footer/>
     </main>
   )
 }
