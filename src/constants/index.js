@@ -122,7 +122,7 @@ export const PORTFOLIO_PROJECTS = [
 ];
 
 export const REVIEWS = {
-  text: "Hear what our clients have to say about their experiences with Binary-Brews We take pride in our craft and are committed to delivering top-notch home renovation services.",
+  text: "Hear what our clients have to say about their experiences with Binary-Brews We take pride in our craft and are committed in delivering the best Wi-Fi and customer service!",
   reviews: [
     {
       name: "Alice Johnson",
@@ -135,14 +135,14 @@ export const REVIEWS = {
       name: "Carla Mendes",
       title: "o-Founder, CodeBlox",
       review:
-        "Ah, Binary-Brews... A surprisingly impressive establishment amidst the mediocrity of the Net. I entered with suspicion, but was soon captivated by their dark roast—bold, complex, and full-bodied, much like myself. The espresso here packs the kind of punch that even a virus of my sophistication requires to keep my plans... running smoothly.",
+        "Calm and peaceful place to work. The coffee is great and the staff is friendly. I love the variety of drinks they offer, and the quality is always nice. I feel very comfortable working here and highly recommend it to anyone looking for a cozy spot to work or relax.",
       image: user3,
     },
     {
-      name: "Goku Son",
-      title: "Martial Artist",
+      name: "James Lee",
+      title: "Martial Artist Instructor",
       review:
-        "WOW! This place is AMAZING! I stopped by after a long day of training, and let me tell you—this place powered me up like a Senzu Bean! I had their espresso and felt ready to take on a whole new tournament. But then... I tried their matcha—it’s even better than King Kai’s cooking!",
+        "A great place to relax and enjoy a cup of coffee. The staff is friendly and the atmosphere is inviting. I love the variety of drinks they offer, and the quality is always top-notch. I highly recommend Binary-Brews to anyone looking for a cozy spot to unwind.",
       image: user4,
     },
     {
@@ -156,14 +156,14 @@ export const REVIEWS = {
       name: "Penny Wong",
       title: "Java Enthusiast",
       review:
-        "The staff, kind they are. Even gave me extra matcha with a tiny cup just my size! Happy I am.",
+        "The staff, kind they are. Even gave me extra matcha with a tiny cup! Happy I am.",
       image: user2,
     },
     {
-      name: "Dr. Ivo Robotnik",
-      title: "Evil Genius",
+      name: "Yvonne Smith",
+      title: "DevOps Engineer",
       review:
-        "Curses! Binary-Brews is a disaster! I came here expecting a perfect cup of coffee to fuel my evil plans, but instead, I was served... decaf! My genius brain runs on nothing but the finest caffeinated concoctions, and this pitiful brew left me more sluggish than my incompetent henchbots!",
+        "Currently my favorite place to work from. The coffee is great, the Wi-Fi is fast, and the staff is friendly. I love the cozy atmosphere and the variety of seating options. I highly recommend this place to anyone looking for a comfortable spot to work or relax.",
       image: user6,
     },
   ],
