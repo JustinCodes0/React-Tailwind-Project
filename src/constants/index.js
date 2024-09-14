@@ -41,7 +41,7 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  title: "Binary Brews",
+  title: "Binary-Brews",
   subtitle: "Empowering Coders, One Brew at a Time.",
   image: hero,
 };
@@ -128,7 +128,7 @@ export const REVIEWS = {
       name: "Alice Johnson",
       title: "Tired Developer",
       review:
-        "Binary-Brews is a coder’s paradise! The coffee is strong, the Wi-Fi is fast, and the ambiance is perfect for long coding sessions. I’ve written more lines of code here than anywhere else, and I credit it all to the amazing brews and friendly staff.",
+        "This is a coder’s paradise! The coffee is strong, the Wi-Fi is fast, and the ambiance is perfect for long coding sessions. I’ve written more lines of code here than anywhere else, and I credit it all to the amazing brews and friendly staff.",
       image: user1,
     },
     {
@@ -142,7 +142,7 @@ export const REVIEWS = {
       name: "Goku Son",
       title: "Martial Artist",
       review:
-        "WOW! Binary Brews is AMAZING! I stopped by after a long day of training, and let me tell you—this place powered me up like a Senzu Bean! I had their espresso and felt ready to take on a whole new tournament. But then... I tried their matcha—it’s even better than King Kai’s cooking!",
+        "WOW! This place is AMAZING! I stopped by after a long day of training, and let me tell you—this place powered me up like a Senzu Bean! I had their espresso and felt ready to take on a whole new tournament. But then... I tried their matcha—it’s even better than King Kai’s cooking!",
       image: user4,
     },
     {
@@ -163,7 +163,7 @@ export const REVIEWS = {
       name: "Dr. Ivo Robotnik",
       title: "Evil Genius",
       review:
-        "Curses! Nucup Café is a disaster! I came here expecting a perfect cup of coffee to fuel my evil plans, but instead, I was served... decaf! My genius brain runs on nothing but the finest caffeinated concoctions, and this pitiful brew left me more sluggish than my incompetent henchbots!",
+        "Curses! Binary-Brews is a disaster! I came here expecting a perfect cup of coffee to fuel my evil plans, but instead, I was served... decaf! My genius brain runs on nothing but the finest caffeinated concoctions, and this pitiful brew left me more sluggish than my incompetent henchbots!",
       image: user6,
     },
   ],
