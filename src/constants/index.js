@@ -1,4 +1,4 @@
-import hero from "../assets/hero.webp";
+import hero from "../assets/rustic/lobby.webp";
 import kitchenImage from "../assets/kitchen.webp";
 import bathroomImage from "../assets/bathroom.webp";
 import livingRoomImage from "../assets/living-room.webp";
@@ -149,7 +149,7 @@ export const REVIEWS = {
       name: "Noah Thompson",
       title: "Web Developer",
       review:
-        "Binary-Brews was an amazing experience. They emprovise with me and created my own drink! How cool is that? I'd definitely recommend this place to anyone.",
+        "Binary-Brews was an amazing experience. They emprovised with me and created my own drink! How cool is that? I'd definitely recommend this place to anyone.",
       image: user5,
     },
     {
