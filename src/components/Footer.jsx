@@ -24,7 +24,7 @@ const Footer = () => {
                         <RiInstagramFill/>
                 </a>
             </div>
-            <p className="text-sm">&copy; 2024 VastuSpaze. All rights reserved.</p>
+            <p className="text-sm">&copy; 2024 Binary-Brews. All rights reserved.</p>
         </div>
     </footer>
   )
