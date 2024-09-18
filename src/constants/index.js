@@ -23,8 +23,8 @@ export const LINKS = [
     link: "#services",
   },
   {
-    name: "Portfolio",
-    link: "#portfolio",
+    name: "Menu",
+    link: "#menu",
   },
   {
     name: "About",
