@@ -45,7 +45,7 @@ const Navbar = () => {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } md:hidden absolute bg-neutral-50 w-full py-5 px-4 mt-2 border-b-4`}
+        } md:hidden absolute bg-neutral-50 w-full py-1 px-4 mt- border-b-4`}
       >
         {LINKS.map((link, index) => (
           <a
