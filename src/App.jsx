@@ -13,8 +13,8 @@ const App = () => {
     <main className="overflow-x-hidden antialiased text-neutral-800"> 
     <Navbar />
     <Hero />
-    <Services />
     <Portfolio />
+    <Services />
     <About/>
     <Reviews/>
     <ContactUs/>
