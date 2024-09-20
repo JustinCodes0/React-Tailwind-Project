@@ -7,9 +7,8 @@ const About = () => {
             <div className="mb-8 lg:mb-0">
                 <img src={aboutImage} alt="About Binary" className="w-full h-auto" />
                 </div>
-                <p className="text-lg lg:text-3xl font-light text-center lg:text-left max-w-5xl mx-auto mt-8">
-                Binary-Brews is a unique coffee shop designed for software engineers, coders, and tech enthusiasts. It's a cozy haven where creativity and productivity flow freely over a cup of expertly brewed coffee. With subtle tech-themed decor, like binary patterns and circuit board designs, it’s the perfect spot to code, collaborate, or unwind. Whether you're debugging your latest project or brainstorming the next big idea, Binary-Brews provides a welcoming environment for all tech lovers.
-                </p>
+                <p className="text-lg lg:text-2xl font-light text-center lg:text-left max-w-5xl mx-auto mt-8">
+                Binary Brews is a one-of-a-kind coffee shop where creativity and productivity come together. Whether you are a software engineer, a creative thinker, or someone who just loves a great cup of coffee, our cozy space offers a welcoming environment for all. With subtle tech-inspired decor, like binary patterns and circuit board designs, it is the perfect spot to work, collaborate, or simply relax.</p>
             </div>
     </section>
   )

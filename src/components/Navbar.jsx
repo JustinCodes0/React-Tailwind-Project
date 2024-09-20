@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   return (
     <nav className="border-b-2 w-full bg-slate-50 fixed top-0 z-50">
-      <div className="max-w-7x1 mx-auto flex justify-between items-center py-8">
+      <div className="max-w-7x1 mx-10 flex justify-between items-center py-8">
         <div className="pl-2">
           <a href="#">
             <img src={logo} width={150} height={15} alt="VastuSpaze" />

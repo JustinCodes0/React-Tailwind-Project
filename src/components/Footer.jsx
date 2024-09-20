@@ -1,4 +1,4 @@
-import { RiFacebookFill, RiInstagramFill, RiTwitterFill } from "@remixicon/react"
+import { RiFacebookFill, RiInstagramFill, RiTwitterFill, RiYoutubeFill } from "@remixicon/react"
 
 const Footer = () => {
   return (
@@ -23,8 +23,14 @@ const Footer = () => {
                     aria-label="Visit our Instagram page">
                         <RiInstagramFill/>
                 </a>
+                <a href="https://www.youtube.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit our YouTube page">
+                        <RiYoutubeFill/>
+                </a>
             </div>
-            <p className="text-sm">&copy; 2024 Binary-Brews. All rights reserved.</p>
+            <p className="text-sm">&copy; 2024 Binary Brews. All rights reserved.</p>
         </div>
     </footer>
   )
