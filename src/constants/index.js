@@ -1,14 +1,17 @@
-import hero from "../assets/rustic/lobby.webp";
-import kitchenImage from "../assets/kitchen.webp";
-import bathroomImage from "../assets/bathroom.webp";
-import livingRoomImage from "../assets/living-room.webp";
+import frontOfStore from "../assets/rustic/frontOfStore.jpeg";
+import seating_area from "../assets/rustic/seating_area.jpeg";
+import coffepastry from "../assets/rustic/pastery.jpeg";
+import latteart from "../assets/rustic/coupledrinks.jpeg";  
+import coffeeroulette from "../assets/rustic/coffeeroulette.webp";
 
+/*
 import portfolio1 from "../assets/portfolio1.webp";
 import portfolio2 from "../assets/portfolio2.webp";
 import portfolio3 from "../assets/portfolio3.webp";
 import portfolio4 from "../assets/portfolio4.webp";
 import portfolio5 from "../assets/portfolio5.webp";
 import portfolio6 from "../assets/portfolio6.webp";
+*/
 
 import user1 from "../assets/user1.webp";
 import user2 from "../assets/user2.webp";
@@ -41,35 +44,44 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  title: "Binary-Brews",
-  subtitle: "Empowering Coders, One Brew at a Time.",
-  image: hero,
+  title: "Binary Brews",
+  subtitle: "Bug-Free Brews & Sweet",
+  image: frontOfStore,
 };
 
 export const SERVICES_CONTENT = [
   {
-    title: "Kitchen Renovation",
+    title: "Support our local buisness",
     description:
-      "Transform your kitchen into a modern, functional space with our comprehensive renovation services. From custom cabinetry to state-of-the-art appliances, we handle all aspects of kitchen remodeling.",
-    image: kitchenImage,
-    alt: "Kitchen Renovation",
+      "We are proud to be a local coffee shop that supports our community. We source our coffee beans from local farmers and suppliers, ensuring that we provide the freshest and highest quality coffee to our customers.",
+    image: seating_area, 
+    alt: "Support our local buisness",
   },
   {
-    title: "Bathroom Renovation",
+    title: "Enjoy our local brew",
     description:
-      "Create a spa-like retreat in your home with our bathroom renovation services. We offer luxurious fixtures, custom tiling, and innovative designs to elevate your bathroom experience.",
-    image: bathroomImage,
-    alt: "Bathroom Renovation",
+      "Our coffee is roasted locally and brewed fresh daily, ensuring that you get the best cup of coffee every time. We offer a variety of coffee drinks, from classic espressos to unique specialty drinks.",
+    image: coffeeroulette, 
+    alt: "Enjoy our local brew",
   },
   {
-    title: "Living Room Renovation",
+    title: "Latte Art",
     description:
-      "Update your living room with our expert renovation services. We offer custom designs, new flooring options, and stylish lighting solutions to create a warm and inviting space for your family and guests.",
-    image: livingRoomImage,
-    alt: "Living Room Renovation",
+      "Indulge in our delicious lattes, featuring beautifully crafted designs that are as pleasing to the eye as they are to the palate.",
+    image: latteart,
+    alt: "Latte Art",
   },
+  {
+    title: "Baked Goods",
+    description:
+      "We also offer a selection of freshly baked pastries and desserts to complement your coffee. From croissants to cookies, we have something for everyone.",
+    image: coffepastry,
+    alt: "Baked Goods",
+  }
 ];
 
+
+/*
 export const PORTFOLIO_PROJECTS = [
   {
     id: 1,
@@ -119,10 +131,11 @@ export const PORTFOLIO_PROJECTS = [
     image: portfolio6,
     link: "#",
   },
-];
+]; 
+*/
 
 export const REVIEWS = {
-  text: "Hear what our clients have to say about their experiences with Binary-Brews We take pride in our craft and are committed in delivering the best Wi-Fi and customer service!",
+  text: "Hear what our clients have to say about their experiences with Binary Brews. We take pride in our craft and are committed to delivering the best coffee and customer service!",
   reviews: [
     {
       name: "Alice Johnson",
@@ -133,30 +146,30 @@ export const REVIEWS = {
     },
     {
       name: "Carla Mendes",
-      title: "o-Founder, CodeBlox",
+      title: "Co-Founder, CodeBlox",
       review:
         "Calm and peaceful place to work. The coffee is great and the staff is friendly. I love the variety of drinks they offer, and the quality is always nice. I feel very comfortable working here and highly recommend it to anyone looking for a cozy spot to work or relax.",
       image: user3,
     },
     {
       name: "James Lee",
-      title: "Martial Artist Instructor",
+      title: "Martial Arts Instructor",
       review:
-        "A great place to relax and enjoy a cup of coffee. The staff is friendly and the atmosphere is inviting. I love the variety of drinks they offer, and the quality is always top-notch. I highly recommend Binary-Brews to anyone looking for a cozy spot to unwind.",
+        "A great place to relax and enjoy a cup of coffee. The staff is friendly and the atmosphere is inviting. I love the variety of drinks they offer, and the quality is always top-notch. I highly recommend Binary Brews to anyone looking for a cozy spot to unwind.",
       image: user4,
     },
     {
       name: "Noah Thompson",
       title: "Web Developer",
       review:
-        "Binary-Brews was an amazing experience. They emprovised with me and created my own drink! How cool is that? I'd definitely recommend this place to anyone.",
+        "Binary Brews was an amazing experience. They improvised with me and created my own drink! How cool is that? I'd definitely recommend this place to anyone.",
       image: user5,
     },
     {
       name: "Penny Wong",
       title: "Java Enthusiast",
       review:
-        "The staff, kind they are. Even gave me extra matcha with a tiny cup! Happy I am.",
+        "The staff are kind. They even gave me extra matcha with a tiny cup! This made me very happy.",
       image: user2,
     },
     {
@@ -170,17 +183,17 @@ export const REVIEWS = {
 };
 
 export const CONTACT_INFO = {
-  text: "Have questions or need more information? Get in touch with us, and we ll be happy to assist you.",
+  text: "Have questions or need more information? Get in touch with us, and we'll be happy to assist you.",
   phone: {
     label: "Phone",
     value: "(123) 456-7890",
   },
   email: {
     label: "Email",
-    value: "info@vastuspaze.com",
+    value: "info@binary-brews.com",
   },
   address: {
     label: "Address",
-    value: "1234 Renovation Ave, Suite 100, Your City, ST 56789",
+    value: "978 Miller Greens, Suite 100, West Reedfurt, OR 49859",
   },
 };
