@@ -1,10 +1,14 @@
+import { PORTFOLIO_PROJECTS } from "../constants"
+
 const Portfolio = () => {
   return (
-    <section className="max-w-7xl mx-auto border-b-2" id="menu">
-      <h2 className="text-xl lg:text-3xl tracking-tight text-center uppercase mt-20 mb-12">Menu</h2>
-      <div className="flex flex-col items-center my-20">
-        <img src="/src/assets/menu.png" className="w-full center-align" alt="Menu" />
-      </div>
+    <section className="max-w-7xl mx-auto border-b-2">
+        <div className="flex flex-col items-center my-20">
+        <p className="lg:mt text-2xl mb-6 font-medium tracking-tighter">
+                {PORTFOLIO_PROJECTS.subtitle}
+            </p>
+            <img src={PORTFOLIO_PROJECTS.image} className="w-full h-auto object-cover rounded-lg" alt="" />
+        </div>
     </section>
   )
 }
