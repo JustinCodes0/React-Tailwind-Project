@@ -3,6 +3,7 @@ import seating_area from "../assets/rustic/seating_area.jpeg";
 import coffepastry from "../assets/rustic/pastery.jpeg";
 import latteart from "../assets/rustic/coupledrinks.jpeg";  
 import coffeeroulette from "../assets/rustic/coffeeroulette.webp";
+import menu from "../assets/menu.png"
 
 /*
 import portfolio1 from "../assets/portfolio1.webp";
@@ -19,6 +20,10 @@ import user3 from "../assets/user3.webp";
 import user4 from "../assets/user4.webp";
 import user5 from "../assets/user5.webp";
 import user6 from "../assets/user6.webp";
+
+/*
+Random note to self: constants directory needs to handle assets data in order to be published on Vite.
+*/
 
 export const LINKS = [
   {
@@ -80,17 +85,11 @@ export const SERVICES_CONTENT = [
   }
 ];
 
-
-/*
-export const PORTFOLIO_PROJECTS = [
-  {
-    id: 1,
-    name: "Modern Kitchen Renovation",
-    description:
-      "A complete overhaul of a traditional kitchen, featuring custom cabinetry, granite countertops, and state-of-the-art appliances.",
-    image: portfolio1,
-    link: "#",
-  },
+export const PORTFOLIO_PROJECTS = {
+  subtitle: "Menu",
+  image: menu  
+};
+  /*
   {
     id: 2,
     name: "Luxurious Bathroom Remodel",
