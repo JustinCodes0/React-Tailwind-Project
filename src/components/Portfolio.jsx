@@ -2,7 +2,7 @@ import { PORTFOLIO_PROJECTS } from "../constants"
 
 const Portfolio = () => {
   return (
-    <section className="max-w-7xl mx-auto border-b-2">
+    <section className="max-w-7xl mx-auto border-b-2" id="menu">
         <div className="flex flex-col items-center my-20">
         <p className="lg:mt text-2xl mb-6 font-medium tracking-tighter">
                 {PORTFOLIO_PROJECTS.subtitle}
