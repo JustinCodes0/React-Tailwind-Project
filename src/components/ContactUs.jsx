@@ -1,7 +1,7 @@
 import { RiMailLine, RiMapPinLine, RiPhoneLine } from "@remixicon/react"
 import { CONTACT_INFO } from "../constants"
 
-const Contactus = () => {
+const ContactUs = () => {
   return (
     <section className="max-w-7xl mx-auto" id="contact">
       <div className="my-20">
@@ -35,4 +35,4 @@ const Contactus = () => {
   )
 }
 
-export default Contactus
+export default ContactUs
