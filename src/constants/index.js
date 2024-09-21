@@ -22,7 +22,7 @@ import user5 from "../assets/user5.webp";
 import user6 from "../assets/user6.webp";
 
 /*
-Random note to self: constants directory needs to handle assets data in order to be published on Vite.
+constants directory needs to handle assets data in order to be published on Vite.
 */
 
 export const LINKS = [
@@ -87,7 +87,8 @@ export const SERVICES_CONTENT = [
 
 export const PORTFOLIO_PROJECTS = {
   subtitle: "Menu",
-  image: menu  
+  image: menu,
+  alt: "Menu",
 };
   /*
   {
